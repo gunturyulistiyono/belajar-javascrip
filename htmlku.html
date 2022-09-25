@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	    <meta charset="UFT-8">
+	    <title> Belajar Javascript </title>
+	</head>
+	<body>
+	
+	<div id="kotak"></div>
+	<button id="btn">tekan</button>
+ <script>
+    var btn = document.getElementById('btn');
+	 btn.onclick = function(){
+           var img = document.createElement('img');
+           img.setAttribute('src','download.png');
+           var kotak = document.getElementById('kotak');
+           kotak.appendChild(img);
+     }
+ 
+ </script>	
+
+</body>
+</html>
